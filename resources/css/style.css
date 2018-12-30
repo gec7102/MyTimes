@@ -7,6 +7,7 @@ a {
 }
 
 header {
+  background-color: white;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -20,7 +21,6 @@ header {
 }
 
 nav {
-  /*display: flex;*/
   padding-right: 40px;
 }
 
@@ -33,10 +33,36 @@ nav span {
 }
 
 /*CLASSES*/
-.container {
+
+.temp_border {
+  border: 1px solid black;
+}
+
+.column {
   display: flex;
-  /*justify-content: space-between;
-  align-items: center;*/
+  flex-direction: column;
+  padding: 40px 32px 40px 0px;
+}
+
+.column.large {
+  width: 630px;
+  display: inline-flex;
+  height: auto;
+}
+
+.column.medium {
+  width: 300px;
+  display: inline-flex;
+}
+
+.column.small {
+  width: 240px;
+  display: inline-flex;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -48,6 +74,15 @@ nav span {
 
 .logo img {
   margin-right: 12px;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  top: 80px;
+  border: 1px solid black;
+  height: auto;
+
 }
 
 /*IDs*/
