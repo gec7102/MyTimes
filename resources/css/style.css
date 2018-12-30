@@ -1,0 +1,53 @@
+/*CSS rules are displayed by specificity then alphabetical order*/
+
+/*TAGS*/
+
+a {
+  color: black;
+}
+
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  align-items: center;
+  height: 80px;
+}
+
+nav {
+  /*display: flex;*/
+  padding-right: 40px;
+}
+
+span{
+  display: inline-block;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+/*CLASSES*/
+.container {
+  display: flex;
+  /*justify-content: space-between;
+  align-items: center;*/
+}
+
+.logo {
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+/*IDs*/
