@@ -38,6 +38,16 @@ nav span {
   border: 1px solid black;
 }
 
+.cameras {
+  background-image: url("../images/hipster-camera.png");
+  height: 300px;
+}
+
+.cats {
+  background-image: url("../images/cat-story.png");
+  height: 300px;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -60,9 +70,32 @@ nav span {
   display: inline-flex;
 }
 
+.fall {
+  background-image: url("../images/fall-image.png");
+  height: 300px;
+}
+
 .header_container {
   display: flex;
   justify-content: space-between;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.lead-story.image-content {
+  display: flex;
+  background-image: url("../images/picnic.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  height: 300px;
+  color: white;
 }
 
 .logo {
@@ -83,6 +116,12 @@ nav span {
   border: 1px solid black;
   height: auto;
 
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 /*IDs*/
