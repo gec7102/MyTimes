@@ -6,8 +6,17 @@ a {
   color: black;
 }
 
-div {
-  border: 1px solid black;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
 }
 
 header {
@@ -18,6 +27,7 @@ header {
   font-weight: bold;
   border-bottom: 1px solid black;
   position: fixed;
+  top: 0px;
   z-index: 3;
   width: 100%;
   align-items: center;
@@ -27,6 +37,8 @@ header {
 main {
   display: flex;
   padding-top: 116px;
+  margin-bottom: 78px;
+  margin: 0px auto 78px auto;
 }
 
 nav {
@@ -45,10 +57,15 @@ nav span {
 
 .cameras {
   background-image: url("../images/hipster-camera.png");
+  display: flex;
+  /*height: 300px;
+  width: 299px;*/
 }
 
 .cats {
   background-image: url("../images/cat-story.png");
+  display: flex;
+  height: 300px;
 }
 
 .column {
@@ -68,15 +85,67 @@ nav span {
 .column.small {
   width: 240px;
   height: auto;
+  flex-direction: column;
+  display: flex;
 }
 
 .fall {
+  display: flex;
   background-image: url("../images/fall-image.png");
+  /*height: 300px;
+  width: 299px;*/
 }
 
-.header_container {
+.group-stories {
+  display: flex;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
+}
+
+.img-headline {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+  height: 300px;
+}
+
+.info {
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info span {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.lead-headline {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  background-image: url("../images/picnic.png");
+  height: 300px;
+}
+
+.lead-story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .logo {
@@ -90,5 +159,45 @@ nav span {
   margin-right: 12px;
 }
 
+.news-bites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 16px 0px 41px 0px;
+}
+
+.news-bites .bite {
+  margin: 0px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  width: 100%;
+  padding: 11px 20px;
+  display:  block;
+}
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 15px;
+
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 
 /*IDs*/
